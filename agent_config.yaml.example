@@ -1,0 +1,19 @@
+# Agent credentials for the Band platform.
+#
+# Setup:
+# 1. Sign in at https://app.band.ai
+# 2. Create three remote agents: Planner, Engineer, Reviewer
+# 3. For each one, copy its Agent ID and API key into the matching section below
+# 4. Copy this file to agent_config.yaml (which is gitignored -- it holds secrets)
+
+planner:
+  agent_id: ""
+  api_key: ""
+
+engineer:
+  agent_id: ""
+  api_key: ""
+
+reviewer:
+  agent_id: ""
+  api_key: ""
