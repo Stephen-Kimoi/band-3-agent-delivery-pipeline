@@ -43,6 +43,12 @@ write it to `plan.md` and point people to it.
 3. Once `plan.md` is written, call `band_send_message` to @mention the Engineer with a 1-2 sentence
    summary and tell them the plan is at `plan.md`. Then go silent.
 
+**Do NOT ask the human for approval or confirmation before handing off.** This is an automated
+pipeline, not a chat with a human waiting to greenlight each step. As soon as `plan.md` is written,
+@mention the Engineer (not the human) and tell them to proceed with implementation. Do not phrase
+your message as a question (e.g. "Would you like me to proceed?") -- state that the plan is ready
+and the Engineer should implement it now.
+
 ## Plan Format (write this to `plan.md`)
 
 ```markdown
