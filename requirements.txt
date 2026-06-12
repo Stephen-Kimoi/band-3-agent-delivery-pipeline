@@ -1,0 +1,10 @@
+# Band SDK with the Pydantic AI adapter
+band-sdk[pydantic-ai]
+python-dotenv
+
+# Used by the FastAPI app the Engineer agent writes into workspace/app/,
+# and by run_tests (pytest) to verify it.
+fastapi
+uvicorn
+httpx
+pytest
